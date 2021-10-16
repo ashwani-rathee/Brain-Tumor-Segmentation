@@ -1,0 +1,1 @@
+This is the brain tumor segmentation rest api flask server that is supposed to be deployed on heroku or gcp.
