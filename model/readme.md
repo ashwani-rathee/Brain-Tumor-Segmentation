@@ -1,0 +1,1 @@
+This is the deep learning side of things and the model I trained for brain tumor segmerter api.
