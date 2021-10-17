@@ -1,0 +1,19 @@
+{
+  "name": "vectorization_server",
+  "version": "1.0.0",
+  "description": "png to svg",
+  "main": "potrace.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ashwani rathee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "potrace": "^2.1.8"
+  },
+  "devDependencies": {}
+}
