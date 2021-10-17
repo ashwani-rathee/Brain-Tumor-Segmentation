@@ -1,0 +1,17 @@
+flask
+pandas
+dash
+dash-renderer 
+dash-html-components
+dash-core-components
+dash-bootstrap-components
+plotl
+svgtrace
+cufflinks
+requests
+pandas
+numpy
+matplotlib
+Pillow
+scikit-image
+kaleido
