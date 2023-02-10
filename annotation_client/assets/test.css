@@ -26,14 +26,14 @@
     height: 600px;
     margin: 2px;
    }
-.divimg{
+/* .divimg{
     border: 2px solid black;
     padding: 10px;
     width: fit-content;
     background-color: bisque;
     height: 600px;
     margin:2px
-}
+} */
 .divgraph{
     border: 2px solid black;
     padding: 10px;
@@ -44,12 +44,12 @@
 }
 
 .divHeader{
-    border: 2px solid black;
+    border-bottom: 1px solid black;
     padding: 10px;
     width: auto;
     background-color: bisque;
-    margin :10px;
-    background-color: darkseagreen;
+    /* margin :10px; */
+    background-color: white;
     padding: 10px;
     align-content: center;
    }
@@ -63,19 +63,19 @@
 }
 
 .buttons{
-    border: 2px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
-    background-color: bisque;
-    margin :10px 
+    background-color: cornsilk;
 }
 
 .divbig{
-    border: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding :10px ;
-    background-color: skyblue;
-    height: 630px;
     width: auto;
-    margin:10px
+    background-color: white;
+    min-height: 600px;
+    padding :10px ;
 }
 
 .divmarks{
@@ -95,18 +95,104 @@
 
     
 } */
-.div1{
+.divImg1{
     border: 1px solid black;
+    padding: 10px;
+    /* margin-left: 10px; */
+    /* width: 20%; */
+    /* height: 100%; */
 }
+.div2{
+    border: 1px solid black;
+    /* padding: 10px; */
+    /* margin-left: 0%; */
+    /* width: 20%; */
+    /* height: 100%; */
+}
+.div3{
+    border: 1px solid black;
+    /* padding: 10px; */
+    /* margin-left: 0%; */
+    /* width: 60%; */
+    /* height: 100%; */
+} 
+.divCard{
+    border: 1px solid black;
+    /* padding: 10px; */
+    margin-left: 0%;
+    width: auto;
+    min-height: 600px;
+}
+
+.div4{
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    /* margin :10px; */
+    background-color: white;
+    align-content: center;
+    height: 600px;
+   }
+
 .divcol{
     border: 2px;
     border-color: black;
+
 }
 
 .divfooter{
+    /* border: 2px solid black; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    /* width: auto; */
+    background-color: bisque;
+}
+
+.g-01{
     border: 2px solid black;
     padding: 10px;
-    width: auto;
-    background-color: rgb(129, 224, 224);
+    aspect-ratio: 1/1;
+    background-color: bisque;
+    margin :10px;
+    height: 600px;
+}
+
+.g-02{
+    border: 2px solid black;
+    padding: 10px;
+    aspect-ratio: 2/1;
+    background-color: bisque;
+    margin :10px;
+    height: 600px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    border: 2px solid black;
+    width: 25%;
+  }
+  
+  .right {
+    border: 2px solid black;
+    width: 75%;
+  }
+
+
+  .all {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    border-style: solid;
+}
+
+.pad{
     margin: 10px;
 }

@@ -5,7 +5,7 @@ dash-renderer
 dash-html-components
 dash-core-components
 dash-bootstrap-components
-plotl
+plotly
 svgtrace
 cufflinks
 requests

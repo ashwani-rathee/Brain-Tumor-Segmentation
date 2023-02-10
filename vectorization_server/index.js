@@ -18,12 +18,13 @@ var trace = new potrace.Potrace();
 app.post('/tosvg', multipartMiddleware, function(request, response) {
     trace.loadImage(request.files["file"]["path"], function(err) {
       if (err) throw err;
-      console.log(trace.getPathTag()); // will return just <path> tag
+      console.log("[INFO]: Request received");
+      console.log(request.files["file"]["path"]);
       response.json({"output": trace.getPathTag()});
     });
     
   })
 
 app.listen(port, function() {
-	console.log('Our app is running on http://localhost:' + port);
+	console.log('Vectorization server is running on http://localhost:' + port);
 });
